@@ -26,7 +26,7 @@ end
 ```
 
 ## Writing Tests with [`MiniTest`](https://github.com/minitest/minitest)
-Now, we'll write tests for our Calculator class in `test_calculator.rb`:
+Now, we'll write tests for our Calculator class in `tests/test_calculator.rb`:
 
 ```ruby
 # tests/test_calculator.rb
