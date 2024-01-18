@@ -8,8 +8,8 @@ Unit testing involves writing automated tests for small, isolated parts of your 
 [`MiniTest`](https://github.com/minitest/minitest) is a simple yet powerful testing framework that comes bundled with Ruby. It's great for beginners due to its straightforward syntax and minimal setup.
 
 ## Setting Up a [`MiniTest`](https://github.com/minitest/minitest) Project
-- Create a new directory for your project.
-- Inside this directory, create two files: `calculator.rb` (our code) and `tests/test_calculator.rb` (our tests).
+- Create a new directory for your project. You may want to create a new repository from the [Ruby Sandbox](https://github.com/new?template_name=ruby-sandbox&template_owner=appdev-projects) named something like `minitest-calculator` and open up a codespace.
+- Inside this directory, create two files: `calculator.rb` (our code) and `tests/test_calculator.rb` (our tests). It's a standard practice to keep your test files organized inside a `tests` directory.
 
 ## Writing Our First Ruby Class
 Let's start by writing a simple Ruby class in calculator.rb:
