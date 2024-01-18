@@ -2,7 +2,7 @@
 Testing is a critical skill in software development. It helps ensure your code works as expected and remains reliable as it evolves. In this lesson, we'll introduce [`MiniTest`](https://github.com/minitest/minitest), a testing framework incldued with Ruby, to write our first unit tests.
 
 ## What is Unit Testing?
-Unit testing involves writing automated tests for small, isolated parts of your application, typically individual methods or functions. These tests validate that your code behaves as expected under various conditions.
+Unit testing involves writing automated tests for small, isolated parts of your application, typically individual methods or functions. These tests validate that your code behaves as expected under various conditions. You know all those tests you've been running to get full credit on the Ruby assignments? Those are unit tests in action!
 
 ## Why [`MiniTest`](https://github.com/minitest/minitest)?
 [`MiniTest`](https://github.com/minitest/minitest) is a simple yet powerful testing framework that comes bundled with Ruby. It's great for beginners due to its straightforward syntax and minimal setup.
@@ -53,10 +53,22 @@ end
 Run your tests with the following command in your terminal:
 
 ```bash
-ruby test_calculator.rb
+ruby tests/test_calculator.rb
 ```
 
 You should see output indicating that 1 test has been run and passed.
+
+```bash
+Run options: --seed 23211
+
+# Running:
+
+.
+
+Finished in 0.001780s, 561.9101 runs/s, 561.9101 assertions/s.
+
+1 runs, 1 assertions, 0 failures, 0 errors, 0 skips
+```
 
 ## Expanding Our Tests
 Let's add more functionality to our Calculator class and test it:
@@ -91,7 +103,20 @@ end
 
 Run your tests again to see both tests pass.
 
-## Resources
+```bash
+Run options: --seed 10737
+
+# Running:
+
+..
+
+Finished in 0.001611s, 1241.2554 runs/s, 1241.2554 assertions/s.
+
+2 runs, 2 assertions, 0 failures, 0 errors, 0 skips
+```
+
+## Test Driven Development (TDD)
+Test Driven Development (TDD) is a software development approach where you write tests before the actual code. This can be a beneficial approach when dealing with highly complex business logic or when refactoring a large codebase to make sure you don't break anything 😅. This approach might be overkill for many small projects or prototypes that are constantly changing.
 
 
 ## Conclusion
