@@ -12,7 +12,7 @@ Unit testing involves writing automated tests for small, isolated parts of your 
 - Inside this directory, create two files: `calculator.rb` (our code) and `tests/test_calculator.rb` (our tests). It's a standard practice to keep your test files organized inside a `tests` directory.
 
 ## Writing Our First Ruby Class
-Let's start by writing a simple Ruby class in calculator.rb:
+Let's start by writing a simple Ruby class in `calculator.rb`:
 
 ```ruby
 # calculator.rb
@@ -26,7 +26,7 @@ end
 ```
 
 ## Writing Tests with [`MiniTest`](https://github.com/minitest/minitest)
-Now, we'll write tests for our Calculator class in test_calculator.rb:
+Now, we'll write tests for our Calculator class in `test_calculator.rb`:
 
 ```ruby
 # tests/test_calculator.rb
