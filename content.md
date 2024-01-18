@@ -1,5 +1,4 @@
-# Testing your code with [`MiniTest`](https://github.com/minitest/minitest)
-
+# Testing your code with `MiniTest`
 Testing is a critical skill in software development. It helps ensure your code works as expected and remains reliable as it evolves. In this lesson, we'll introduce [`MiniTest`](https://github.com/minitest/minitest), a testing framework incldued with Ruby, to write our first unit tests.
 
 ## What is Unit Testing?
