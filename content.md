@@ -120,7 +120,7 @@ Test Driven Development (TDD) is a software development approach where you write
 
 
 ## Conclusion
-Congratulations! You've just written your first unit tests in Ruby using MiniTest. This is just the beginning. As you write more complex Ruby programs, your tests will become an invaluable tool to ensure your code remains correct and maintainable.
+Congratulations! You've just written your first unit tests in Ruby using [`MiniTest`](https://github.com/minitest/minitest). This is just the beginning. As you write more complex Ruby programs, your tests will become an invaluable tool to ensure your code remains correct and maintainable.
 
 ---
 - Approximately how long (in minutes) did this lesson take you to complete?
