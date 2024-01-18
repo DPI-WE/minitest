@@ -97,5 +97,7 @@ Run your tests again to see both tests pass.
 ## Conclusion
 Congratulations! You've just written your first unit tests in Ruby using MiniTest. This is just the beginning. As you write more complex Ruby programs, your tests will become an invaluable tool to ensure your code remains correct and maintainable.
 
-Approximately how long (in minutes) did this lesson take you to complete?
+---
+- Approximately how long (in minutes) did this lesson take you to complete?
 {: .free_text_number #time_taken title="Time taken" points="1" answer="any" }
+---
