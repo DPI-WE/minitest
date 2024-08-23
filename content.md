@@ -46,7 +46,7 @@ gem "minitest"
 
 Then, [run `bundle install` at the bash prompt](https://learn.firstdraft.com/lessons/80-ruby-intro-running-real-programs#bundler), which will install the gem and create a `Gemfile.lock` for you to keep track of the gem version!
 
-- Did you add a `Gemfile`, fill it in, run `bundle install`, and made a git commit to take a snapshot of your new `Gemfile.lock`?
+- Did you add a `Gemfile`, fill it in, run `bundle install`, and make a git commit to take a snapshot of your new `Gemfile.lock`?
 - Yes.
   - Great! Carry on then.
 - Not yet.
@@ -54,7 +54,7 @@ Then, [run `bundle install` at the bash prompt](https://learn.firstdraft.com/les
 {: .choose_best #gemfile_for_minitest title="Gemfile for minitest" points="1" answer="1" }
 
 ## Writing Tests with [`MiniTest`](https://github.com/minitest/minitest)
-Now, that we have the gem installed, we'll write tests for our Calculator class in `tests/test_calculator.rb`:
+Now that we have the gem installed, we'll write tests for our Calculator class in `tests/test_calculator.rb`:
 
 ```ruby
 # tests/test_calculator.rb
