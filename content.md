@@ -37,7 +37,6 @@ The Calculator CLI app provides users with a simple, command-line interface to p
 - As a user, I want to add two numbers, so that I can calculate their sum.
 - As a user, I want to subtract one number from another, so that I can calculate the difference.
 
-
 ### Continuous Operations
 - As a user, I want to perform multiple calculations without restarting the application, so that I can use the calculator efficiently.
 
