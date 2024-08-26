@@ -216,7 +216,7 @@ Test Driven Development (TDD) is a software development approach where you write
 
 - Which of the following is a benefit of automated testing?
 - It allows tests to be run automatically, saving time and reducing manual effort.
-  - Correct! Automated testing helps execute tests quickly and consistently, especially when integrated into CI/CD pipelines.
+  - Correct! Automated testing helps execute tests quickly and consistently.
 - It replaces the need for any manual testing.
   - Not quite. Automated testing complements manual testing but does not entirely replace it.
 - It makes writing tests unnecessary.
