@@ -36,6 +36,11 @@ gem install minitest
 
 _or_, the better idea is to create a new `Gemfile` in your file explorer, and fill it with:
 
+<aside>
+
+As an alternative to manually creating the `Gemfile`, try to run the command `bundle init` in your terminal at the bash prompt. This command will create a new `Gemfile` and add the `source` line at the top to avoid any typos!
+</aside>
+
 ```rb
 # Gemfile
 
