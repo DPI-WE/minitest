@@ -6,7 +6,7 @@ Before diving into specific tools and techniques, it's essential to understand w
 
 - **Quality Assurance**: Testing helps ensure the software meets the desired quality standards, reducing bugs and enhancing user satisfaction.
 - **Reliability**: By catching issues early, testing ensures that the software remains stable and reliable over time.
-- **Maintainability**: Well-tested code is easier to maintain and extend because tests provide a safety net for changes and refactoring.
+- **Maintainability**: Well-tested code is easier to maintain and extend because tests provide a safety net for changes.
 - **Efficiency**: Automated tests can save time and effort compared to manual testing.
 
 ## Gathering Requirements
