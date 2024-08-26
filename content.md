@@ -1,5 +1,5 @@
-# Testing your code with `MiniTest`
-Testing is a critical skill in software development. It helps ensure your code works as expected and remains reliable as it evolves. In this lesson, we'll start by discussing the fundamentals of software testing, including how to gather requirements, write functional requirements using user stories, and develop test plans. Then, we'll introduce [`MiniTest`](https://github.com/minitest/minitest), a testing framework included with Ruby, to write our first unit tests.
+# Testing your code
+Testing is a critical skill in software development. It helps ensure your code works as expected and remains reliable as it evolves. In this lesson, we'll start by discussing the fundamentals of software testing, starting with how to gather and write functional requirements. Then, we'll introduce [`MiniTest`](https://github.com/minitest/minitest), a testing framework included with Ruby, to write our first unit tests.
 
 ## The Importance of Testing
 Before diving into specific tools and techniques, it's essential to understand why testing is crucial:
@@ -24,17 +24,6 @@ User stories are simple descriptions of a feature told from the perspective of t
 "As a user of a calculator application, I want to be able to add two numbers, so that I can see the sum."
 
 User stories are the foundation for writing tests because they describe the expected behavior of the software from the user's perspective.
-
-## Developing Test Plans
-A "test plan" is a document that outlines the strategy and scope for testing a software application. It includes:
-
-- **Test Objectives**: What are the goals of the testing? What do you want to achieve?
-- **Test Scope**: What parts of the application will be tested? What will not be tested?
-- **Test Strategy**: How will the testing be carried out? Will it include unit tests, integration tests, system tests, etc.?
-- **Resources**: Who will be responsible for testing? What tools and environments are needed?
-- **Schedule**: When will testing occur? How often will tests be run?
-
-Creating a test plan helps ensure a systematic approach to testing and provides a roadmap for the testing process.
 
 ## What is Unit Testing?
 Unit testing involves writing automated tests for small, isolated parts of your application, typically individual methods or functions. These tests validate that your code behaves as expected under various conditions. You know all those tests you've been running to get full credit on the Ruby assignments? Those are unit tests in action!
@@ -215,23 +204,6 @@ Test Driven Development (TDD) is a software development approach where you write
   - Not quite. This is more like a procedure or task, not a user story.
 {: .choose_best #user_story_component title="Components of a User Story" points="1" answer="1" }
 
-- What is the primary purpose of a test plan?
-- To outline the strategy and scope for testing a software application.
-  - Correct! A test plan helps ensure a systematic approach to testing by defining objectives, scope, strategy, resources, and schedule.
-- To write code for the application.
-  - Not quite. A test plan focuses on testing, not writing code.
-- To define the user's exact requirements.
-  - Not quite. A test plan uses requirements but does not define them.
-{: .choose_best #test_plan_purpose title="Purpose of a Test Plan" points="1" answer="1" }
-
-- Which of the following should NOT be included in a test plan?
-- Test objectives and scope.
-  - Not quite. These are essential parts of a test plan.
-- Details of the development environment.
-  - Correct! The development environment details are typically documented elsewhere. A test plan focuses on testing strategies, objectives, and resources.
-- Test strategy and schedule.
-  - Not quite. These are critical components of a test plan.
-{: .choose_best #test_plan_components title="Components of a Test Plan" points="1" answer="2" }
 
 - Why is testing important in software development?
 - To ensure the software is built quickly.
