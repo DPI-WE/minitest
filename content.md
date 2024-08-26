@@ -1,5 +1,5 @@
 # Testing your code with `MiniTest`
-Testing is a critical skill in software development. It helps ensure your code works as expected and remains reliable as it evolves. In this lesson, we'll start by discussing the fundamentals of software testing, including how to gather requirements, write functional requirements using user stories, and develop test plans. Then, we'll introduce [`MiniTest`](https://github.com/minitest/minitest), a testing framework included with Ruby, to write our first unit tests.
+Testing is a critical skill in software development. It helps ensure your code works as expected and remains reliable as it evolves. In this lesson, we'll start by discussing the fundamentals of software testing, including how to gather requirements, write functional requirements using user stories, and develop test plans. Then, we'll introduce the [`MiniTest`](https://github.com/minitest/minitest) gem to write our first unit tests.
 
 ## The Importance of Testing
 Before diving into specific tools and techniques, it's essential to understand why testing is crucial:
