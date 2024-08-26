@@ -25,7 +25,7 @@ User stories are simple descriptions of a feature told from the perspective of t
 
 User stories are the foundation for writing tests because they describe the expected behavior of the software from the user's perspective.
 
-<!-- TODO: add example functional spec with user stories for the calculator app -->
+<!-- TODO: add example functional spec with user stories for the calculator cli app -->
 ### Example Functional Requirements
 
 
@@ -86,7 +86,7 @@ Then, [run `bundle install` at the bash prompt](https://learn.firstdraft.com/les
   - Please do so before you proceed.
 {: .choose_best #gemfile_for_minitest title="Gemfile for minitest" points="1" answer="1" }
 
-## Writing Tests with [`MiniTest`](https://github.com/minitest/minitest)
+## Writing Tests with MiniTest
 Now that we have the gem installed, we'll write tests for our Calculator class in `tests/test_calculator.rb`:
 
 ```ruby
