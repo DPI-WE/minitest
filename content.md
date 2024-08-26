@@ -26,8 +26,31 @@ User stories are simple descriptions of a feature told from the perspective of t
 User stories are the foundation for writing tests because they describe the expected behavior of the software from the user's perspective.
 
 <!-- TODO: add example functional spec with user stories for the calculator cli app -->
-### Example Functional Requirements
+### Example Functional Requirements Document
 
+```md
+# Calculator CLI Functional Specification
+The Calculator CLI app provides users with a simple, command-line interface to perform basic arithmetic operations.
+
+## User Stories
+
+### Basic Operations
+- As a user, I want to add two numbers, so that I can calculate their sum.
+- As a user, I want to subtract one number from another, so that I can calculate the difference.
+
+### Error Handling
+- As a user, I want to receive an error message if I enter non-numeric values, so that I understand why the operation failed.
+
+### Continuous Operations
+- As a user, I want to perform multiple calculations without restarting the application, so that I can use the calculator efficiently.
+
+### Functional Requirements
+- The calculator must prompt the user for an operation (addition and subtraction).
+- The calculator must prompt the user for two numbers to perform the operation on.
+- The calculator must display the result of the operation.
+- The calculator must handle invalid input gracefully (e.g., non-numeric input).
+- The calculator must allow the user to perform another calculation after one completes.
+```
 
 ## What is Unit Testing?
 Unit testing involves writing automated tests for small, isolated parts of your application, typically individual methods or functions. These tests validate that your code behaves as expected under various conditions. You know all those tests you've been running to get full credit on the Ruby assignments? Those are unit tests in action!
@@ -176,7 +199,7 @@ Finished in 0.001611s, 1241.2554 runs/s, 1241.2554 assertions/s.
 2 runs, 2 assertions, 0 failures, 0 errors, 0 skips
 ```
 
-<!-- TODO: Add code to make this a real CLI app as a good example -->
+Check out the code used in this lesson [here](https://github.com/DPI-WE/calculator-cli)
 
 ## Test Driven Development (TDD)
 Test Driven Development (TDD) is a software development approach where you write tests before the actual code. This can be a beneficial approach when dealing with highly complex business logic or when refactoring a large codebase to make sure you don't break anything 😅. This approach might be overkill for many small projects or prototypes that are constantly changing.
@@ -264,4 +287,5 @@ Congratulations! You've just written your first unit tests in Ruby using [`MiniT
 {: .free_text_number #time_taken title="Time taken" points="1" answer="any" }
 
 
-<!-- TODO: link to the calculator app we make in this lesson -->
+## Resources
+- [Calculator CLI](https://github.com/DPI-WE/calculator-cli)
