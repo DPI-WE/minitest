@@ -25,7 +25,6 @@ User stories are simple descriptions of a feature told from the perspective of t
 
 User stories are the foundation for writing tests because they describe the expected behavior of the software from the user's perspective.
 
-<!-- TODO: add example functional spec with user stories for the calculator cli app -->
 ### Example Functional Requirements Document
 
 ```md
