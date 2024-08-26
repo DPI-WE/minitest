@@ -25,13 +25,17 @@ User stories are simple descriptions of a feature told from the perspective of t
 
 User stories are the foundation for writing tests because they describe the expected behavior of the software from the user's perspective.
 
+<!-- TODO: add example functional spec with user stories for the calculator app -->
+### Example Functional Requirements
+
+
 ## What is Unit Testing?
 Unit testing involves writing automated tests for small, isolated parts of your application, typically individual methods or functions. These tests validate that your code behaves as expected under various conditions. You know all those tests you've been running to get full credit on the Ruby assignments? Those are unit tests in action!
 
-## Why [`MiniTest`](https://github.com/minitest/minitest)?
+## Why MiniTest?
 [`MiniTest`](https://github.com/minitest/minitest) is a simple yet powerful testing framework that comes bundled with Ruby. It's great for beginners due to its straightforward syntax and minimal setup.
 
-## Setting Up a [`MiniTest`](https://github.com/minitest/minitest) Project
+## Setting Up a MiniTest Project
 - Create a new directory for your project. You may want to create a new repository from the [Ruby Sandbox](https://github.com/new?template_name=ruby-sandbox&template_owner=appdev-projects) named something like `minitest-calculator` and open up a codespace.
 - Inside this directory, create two files: `calculator.rb` (our code) and `tests/test_calculator.rb` (our tests). It's a standard practice to keep your test files organized inside a `tests` directory.
 
@@ -49,7 +53,7 @@ end
 
 ```
 
-## Bringing in the [`MiniTest`](https://github.com/minitest/minitest) gem
+## Bringing in the MiniTest gem
 Refresh your memory from the [previous lesson where we learned about gems](https://learn.firstdraft.com/lessons/80-ruby-intro-running-real-programs#gems). Before we can start using `minitest` in our codespace, we need to either:
 
 Run this at the bash prompt in your terminal:
@@ -172,6 +176,8 @@ Finished in 0.001611s, 1241.2554 runs/s, 1241.2554 assertions/s.
 2 runs, 2 assertions, 0 failures, 0 errors, 0 skips
 ```
 
+<!-- TODO: Add code to make this a real CLI app as a good example -->
+
 ## Test Driven Development (TDD)
 Test Driven Development (TDD) is a software development approach where you write tests before the actual code. This can be a beneficial approach when dealing with highly complex business logic or when refactoring a large codebase to make sure you don't break anything 😅. This approach might be overkill for many small projects or prototypes that are constantly changing.
 
@@ -204,7 +210,6 @@ Test Driven Development (TDD) is a software development approach where you write
   - Not quite. This is more like a procedure or task, not a user story.
 {: .choose_best #user_story_component title="Components of a User Story" points="1" answer="1" }
 
-
 - Why is testing important in software development?
 - To ensure the software is built quickly.
   - Not quite. While testing can streamline development in the long run, its primary purpose is to ensure quality and reliability.
@@ -216,7 +221,7 @@ Test Driven Development (TDD) is a software development approach where you write
 
 - Which of the following is a benefit of automated testing?
 - It allows tests to be run automatically, saving time and reducing manual effort.
-  - Correct! Automated testing helps execute tests quickly and consistently, especially when integrated into CI/CD pipelines.
+  - Correct! Automated testing helps execute tests quickly and consistently.
 - It replaces the need for any manual testing.
   - Not quite. Automated testing complements manual testing but does not entirely replace it.
 - It makes writing tests unnecessary.
@@ -257,3 +262,6 @@ Congratulations! You've just written your first unit tests in Ruby using [`MiniT
 
 - Approximately how long (in minutes) did this lesson take you to complete?
 {: .free_text_number #time_taken title="Time taken" points="1" answer="any" }
+
+
+<!-- TODO: link to the calculator app we make in this lesson -->
