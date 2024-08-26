@@ -60,8 +60,41 @@ end
 
 ```
 
+## Bringing in the [`MiniTest`](https://github.com/minitest/minitest) gem
+Refresh your memory from the [previous lesson where we learned about gems](https://learn.firstdraft.com/lessons/80-ruby-intro-running-real-programs#gems). Before we can start using `minitest` in our codespace, we need to either:
+
+Run this at the bash prompt in your terminal:
+
+```
+gem install minitest
+```
+
+_or_, the better idea is to create a new `Gemfile` in your file explorer, and fill it with:
+
+<aside>
+
+As an alternative to manually creating the `Gemfile`, try to run the command `bundle init` in your terminal at the bash prompt. This command will create a new `Gemfile` and add the `source` line at the top to avoid any typos!
+</aside>
+
+```rb
+# Gemfile
+
+source "https://rubygems.org"
+
+gem "minitest"
+```
+
+Then, [run `bundle install` at the bash prompt](https://learn.firstdraft.com/lessons/80-ruby-intro-running-real-programs#bundler), which will install the gem and create a `Gemfile.lock` for you to keep track of the gem version!
+
+- Did you add a `Gemfile`, fill it in, run `bundle install`, and make a git commit to take a snapshot of your new `Gemfile.lock`?
+- Yes.
+  - Great! Carry on then.
+- Not yet.
+  - Please do so before you proceed.
+{: .choose_best #gemfile_for_minitest title="Gemfile for minitest" points="1" answer="1" }
+
 ## Writing Tests with [`MiniTest`](https://github.com/minitest/minitest)
-Now, we'll write tests for our Calculator class in `tests/test_calculator.rb`:
+Now that we have the gem installed, we'll write tests for our Calculator class in `tests/test_calculator.rb`:
 
 ```ruby
 # tests/test_calculator.rb
@@ -78,7 +111,7 @@ end
 ```
 
 ## Understanding the Test Code
-- `require 'minitest/autorun'`: This line loads the MiniTest framework.
+- `require 'minitest/autorun'`: This line loads the MiniTest framework, which we `bundle install`ed to make it available in our codespace.
 - `require './calculator'`: This line loads our Calculator class.
 - `class TestCalculator < Minitest::Test`: We define a test class that inherits from Minitest::Test.
 - `def test_addition`: Our first test method. In `MiniTest`, any method that begins with `test_` is automatically run as a test.
