@@ -172,8 +172,11 @@ And the corresponding test:
 ```ruby
 # tests/test_calculator.rb
 
-# ... existing code ...
+require 'minitest/autorun'
+require './calculator'
 
+class TestCalculator < Minitest::Test
+  # ... existing code ...
   def test_subtraction
     calculator = Calculator.new
     assert_equal 0, calculator.subtract(2, 2), "Subtraction method failed"
